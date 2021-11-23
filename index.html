@@ -1,10 +1,11 @@
-<script>
-  $(document).ready(function() {
-    $("#target1").addClass("animated bounce");
-  });
-</script>
 <html>
 <head>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#target1").addClass("animated bounce");
+    });
+  </script>
   <style>
     body{
       background-color:yellow;
@@ -12,10 +13,12 @@
   </style>
 </head>
 <body>
+  <div class="container-fluid">
   <h1 style="color:red;">Welcome!!!</h1>
   <main>
     <p> 這裡既空虛又寂寞.</p>
     <button class="btn btn-default target" id="target1">就是一個按鈕</button>
   </main>
+  </div>
 </body>
 </html>
