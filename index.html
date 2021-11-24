@@ -4,8 +4,9 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     $(document).ready(function() {
-      $("#target").css("color", "red");
+      $("#1").css("color", "red");
       $("button").prop("disabled", true);
+      $("#2").addClass("animated shake");
     });
   </script>
   <style>
@@ -19,8 +20,11 @@
   <h1 class="yellow-text">Welcome Here!!!</h1>
   <main>
     <p> 這裡既空虛又寂寞.</p>
-      <button class="btn btn-block btn-primary" id="target">就是一個按鈕</button>
-     </div>
+      <button class="btn btn-block btn-primary" id="1">就是一個按鈕</button>
+   <duv class="row">
+    <div class="col-xs-6">
+     <button class="btn btn-default target" id="2">跳啊</button>
+    </div>
   </main>
 </body>
 </div>
